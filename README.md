@@ -1,6 +1,6 @@
 # Kosakata-Inggris 🇬🇧🇮🇩
 
-**Dibuat oleh Tuan Jabinsar Saragih**  
+**Dibuat oleh Jabinsar Saragih**  
 Belajar bahasa Inggris jadi lebih mudah dengan kumpulan kosakata yang dibagi per kategori, disertai arti dan contoh penggunaannya.
 
 ## 📚 Kategori Kosakata:
