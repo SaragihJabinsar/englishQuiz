@@ -1034,4 +1034,4 @@ window.onload = startGame;
 
 // Music
 const music = new Audio();
-music.src = '/music/relax-music.mp3';
+music.src = 'music/relax-music.mp3';
