@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Oswald:wght@200..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(135deg, #171741d1, #050532d0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #6e70b2;
+    font-family: "Oswald",
+    sans-serif;
+    letter-spacing: .5px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 48px;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.container {
+    text-align: center;
+    background: #4c4e5f7e;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px #3a4395db;
+    padding: 30px;
+    width: 90%;
+    max-width: 400px;
+}
+
+.word-container {
+    margin-bottom: 15px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #adb0d2e2;
+    /* Warna biru lembut */
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #6266867e;
+}
+
+input {
+    font-family: "Oswald",
+    sans-serif;
+    padding: 12px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    width: 80%;
+    margin-top: 10px;
+    font-size: 20px;
+    transition: border-color 0.3s;
+    background-color: #585b77c9;
+    color: #dbf0bc;
+}
+
+input:focus {
+    outline: none;
+}
+
+input::placeholder {
+    color: #9597ab75;
+}
+
+#timer {
+    font-size: 32px;
+    color: #5c6ce4ea;
+    /* Warna timer */
+    margin-top: 10px;
+    font-family: "Anton SC",
+    sans-serif;
+}
+
+.hidden {
+    display: none;
+}
+
+.motivasi {
+    font-size: 26px;
+    color: #bafcba;
+    /* Warna lembut */
+    background: #75788faa;
+    padding: 15px;
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.motivasi.show {
+    opacity: 1;
+}
+
+.notification {
+    font-size: 20px;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+    display: inline-block;
+    transition: all 0.3s;
+}
+
+.correct {
+    background-color: #51735cc9;
+    /* Warna hijau lembut */
+    border: 1px solid #75a27f;
+    color: #f2eaea;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px #4273449c;
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.wrong {
+    background-color: #906060c9;
+    /* Warna merah lembut */
+    border: 1px solid #9b7074ed;
+    color: #ebe6e6;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px #633e3cae;
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+button {
+    font-family: "Oswald",
+    sans-serif;
+    margin-top: 30px;
+    padding: 10px 20px;
+    border: none;
+    background: linear-gradient(135deg, #585b77c9, #606482c9);
+    /* Warna biru lembut */
+    color: #f0e2e2;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #505579c9, #5e627cc9);
+    /* Warna saat hover */
+    transform: translateY(-2px);
+}
+
+.result {
+    font-family: "Oswald",
+    sans-serif;
+    margin-top: 15px;
+    font-size: 20px;
+    background: #515573c9;
+    padding: 15px;
+    border-radius: 10px;
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+.result.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.result-content {
+    text-align: left;
+    font-size: 18px;
+    color: #e7eaf5;
+    padding: 10px;
+}
+
+.motivasi-content {
+    font-size: 26px;
+    color: #dedff1;
+    padding: 10px;
+    border-radius: 10px;
+    opacity: 1;
+}
+.done{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: -10px;
+}

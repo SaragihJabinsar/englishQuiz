@@ -1,0 +1,10 @@
+- Perbaiki tombol enternya, buat setelah di enter sekali tidak bisa enter lagi di setiap soal
+- buatkan 1 file dan tambahkan :
+	- tombol mulai
+	- tombol pengaturan : 
+		- waktu hitung mundur bisa di ubah
+		- bisa menambhakan,menghapus,melihat,serta mengedit kosakata
+		- tombol kembali
+
+- desain dengan yang elegean
+- tambahkan music saat memulainya
